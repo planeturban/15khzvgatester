@@ -271,7 +271,8 @@ void receiveEvent (int howMany)
 
 void setup()
   {
-  
+  pinMode(A0, OUTPUT);
+  digitalWrite(A0, HIGH);
   // initial message ... change to suit
   for (int i = 0; i < verticalLines; i++)
     sprintf (message [i], "Line %03i - hello!", i);
@@ -313,7 +314,7 @@ void setup()
   // for incoming data to display from I2C
 //  Wire.begin (i2cAddress);
 //  Wire.onReceive (receiveEvent);
-  
+ digitalWrite(A0, LOW); 
 }  // end of setup
 
 // draw a single scan line

@@ -2,6 +2,11 @@
 
 It's free.
 
-
-
 Based on Nick Gammons work: http://www.gammon.com.au/forum/?id=11608
+
+
+# Notes
+
+Make sure your vias are covered othervise you'll probably connect them to the battery's GND.
+
+
