@@ -150,6 +150,8 @@
 <dimension x1="0.889" y1="2.032" x2="32.131" y2="2.032" x3="16.51" y3="-2.794" textsize="1.778" layer="47"/>
 <text x="16.51" y="31.75" size="1.016" layer="21" font="fixed" align="center">dtctr
 uberbadassequipment.com</text>
+<text x="29.21" y="2.54" size="3.556" layer="22" rot="MR45">MONOCHROME</text>
+<text x="-2.54" y="36.83" size="1.778" layer="51">This is the MONOCHROME version!</text>
 </plain>
 <libraries>
 <library name="resistor">
