@@ -54,7 +54,7 @@ const byte hSyncPin = 3;     // <------- HSYNC
 const byte MSPIM_SCK = 4;    // <-- we aren't using it directly
 const byte vSyncPin = 10;    // <------- VSYNC
 
-const int horizontalBytes = 20;  // 160 pixels wide
+const int horizontalBytes = 44;  // 160 pixels wide
 const int verticalPixels = 480;  // 480 pixels high
 
 const byte i2cAddress = 42;
@@ -275,7 +275,8 @@ void setup()
   digitalWrite(A0, HIGH);
   // initial message ... change to suit
   for (int i = 0; i < verticalLines; i++)
-    sprintf (message [i], "Line %03i - hello!", i);
+    sprintf (message [i], "Glad retrojul!");
+//    sprintf (message [i], "Line %03i - hello!", i);
    
   // disable Timer 0
   TIMSK0 = 0;  // no interrupts on Timer 0
